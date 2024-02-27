@@ -9,5 +9,13 @@ class Rads extends ConsoleProgram {
     
     // start coding here
     
+    double dblDeg;
+    double dblRad;
+
+    dblDeg = readDouble("What is the degree? ");
+
+    dblRad = Math.toRadians(dblDeg);
+
+    System.out.println("The radian is: " + dblRad);
   }
 }
